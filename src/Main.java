@@ -2,6 +2,7 @@
 
 import Ex.ex1;
 import Ex.ex2;
+import Ex.ex3;
 
 import java.util.Scanner;
 
@@ -27,9 +28,12 @@ public class Main {
 
         }else if (startEx == 2) {
             ex2 game = new ex2();
+            game.showSalary();
             game.showPercentage();
+            game.showUpdated();
         }else {
-            System.out.println("GAME DONT else");
+            ex3 game = new ex3();
+            game.calculateNota();
         }
 
     }
