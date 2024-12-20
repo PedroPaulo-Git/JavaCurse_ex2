@@ -1,6 +1,7 @@
 
 
 import Ex.ex1;
+import Ex.ex2;
 
 import java.util.Scanner;
 
@@ -25,7 +26,8 @@ public class Main {
             System.out.printf("DIAGONAL  = %.2f%n", game.diagonal());
 
         }else if (startEx == 2) {
-            System.out.println("GAME DONT EXIST");
+            ex2 game = new ex2();
+            game.showPercentage();
         }else {
             System.out.println("GAME DONT else");
         }
